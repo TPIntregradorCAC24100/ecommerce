@@ -215,6 +215,54 @@ footer {
     text-decoration: underline;
 }
 
+/*form register*/
 
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.formh2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: none;
+}
+main div form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-block: 16px;
+    width: 420px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    text-align: center;
+    border: 30px;
+    
 
+}
+
+main div form input {
+     padding: 8px;
+     border-radius: 16px;
+     background-color: none;
+     border-color: gray;
+     border: 2px solid grey;
+     margin-bottom: 30px;
+     outline: none;
+     color: black;
+     font-size: 16px;
+}
+
+.button {
+    background-color: grey;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: grey;
+    border: 2px solid grey;
+
+}
