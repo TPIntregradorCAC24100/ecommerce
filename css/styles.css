@@ -151,11 +151,6 @@ h1 {
     transition: padding 0.2s; 
 }
 
-.temporada a {
-    text-decoration: none;
-    color: white;
-}
-
 .temporada:hover {
     background-color: var(--color-secundario);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
