@@ -2,3 +2,28 @@
     list-style-type: none;
     display: inline;
 }
+.titulo {
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.colorIconB {
+    color: brown;
+}
+
+.colorIconW {
+    color: khaki;
+}
+.colorIconR {
+    color: red;
+}
+.colorIconP {
+    color: palevioletred;
+}
+.colorIconPe {
+    color: peru;
+}
+.colorIconLsb {
+    color: lightskyblue;
+}
