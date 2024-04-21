@@ -215,6 +215,9 @@ footer {
     text-decoration: underline;
 }
 
+
+/*form log in*/
+
 /*form register*/
 
 .container {
@@ -223,13 +226,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
-.formh2 {
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: none;
+.fa-solid {
+    padding: 1em;
+    font-size: 100px;
 }
+
+.recorder {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
 main div form {
     display: flex;
     flex-direction: column;
@@ -264,5 +274,8 @@ main div form input {
 .button:hover {
     background-color: grey;
     border: 2px solid grey;
+    background-color: var(--color-secundario);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    color: var(--color-texto); 
 
 }
