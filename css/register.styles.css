@@ -217,14 +217,6 @@ footer {
 
 
 /*form log in*/
-small{
-    display: none;
-}
-
-.was-validated small {
-    display: block;
-    color: red;
-}
 
 /*form register*/
 
@@ -286,4 +278,12 @@ main div form input {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     color: var(--color-texto); 
 
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
 }
