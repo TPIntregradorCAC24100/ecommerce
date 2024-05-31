@@ -217,6 +217,14 @@ footer {
 
 
 /*form log in*/
+small{
+    display: none;
+}
+
+.was-validated small {
+    display: block;
+    color: red;
+}
 
 /*form register*/
 
